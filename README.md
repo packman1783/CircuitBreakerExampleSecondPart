@@ -2,7 +2,7 @@
 
 ## Работающий endpoint
 http://localhost:8081/api/data  
-Ответ: {"message":"Real external data"}
+Ответ: {"message":"Внешний сервис (8081) доступен и работает корректно"}
 
 Связь с CircuitBreakerExample  
 Этот сервис вызывается из CircuitBreakerExample (порт 8080).
