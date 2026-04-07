@@ -14,9 +14,4 @@ public class ExternalController {
     public ExternalResponse getData() {
         return new ExternalResponse("Внешний сервис (8081) доступен и работает корректно");
     }
-
-    @GetMapping("/fail")
-    public ExternalResponse fail() {
-        throw new RuntimeException("Сервис упал");
-    }
 }
